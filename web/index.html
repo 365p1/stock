@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>365p1</title>
+  <link rel="stylesheet" href="css/reset.css"/>
+  <link rel="stylesheet" href="css/bsgrid.all.min.css"/>
+  <script type="text/javascript" src="js/jquery-1.7.2-min.js"></script>
+  <script type="text/javascript" src="js/grid.zh-CN.min.js"></script>
+  <script type="text/javascript" src="js/bsgrid.all.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <style>
+    body,
+    html{
+      background: #E2E2E2;
+      height: 100%;
+    }
+    .header{
+      background: #fff;
+      border-bottom: 1px solid #CCC;
+      margin-bottom: 30px;
+      box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+    }
+    .footer{
+      height: 20px;
+      margin-top: -21px;
+      border-top: 1px solid rgba(0, 0, 0, 0.22);
+      background-color: #fff;
+      text-align: center;
+      color: #999;
+    }
+    #content,
+    .header-inner{
+      width: 1180px;
+      margin: 0 auto;
+    }
+    #layout{
+      min-height: 100%;
+      height: auto!important;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+<div id="layout">
+  <div class="header">
+    <div class="header-inner"><img src="images/logo.png" alt="365p1股票定价" title="365p1股票定价"/></div>
+  </div>
+  <div id="content">
+    <table id="searchTable">
+      <tr>
+        <th w_index="XH" width="5%;">XH</th>
+        <th w_index="ID" width="5%;">ID</th>
+        <th w_index="CHAR" w_align="left" width="15%;">CHAR</th>
+        <th w_index="TEXT" w_align="left" width="30%;">TEXT</th>
+        <th w_index="DATE" width="15%;">DATE</th>
+        <th w_index="TIME" width="15%;">TIME</th>
+        <th w_index="NUM" width="5%;">NUM</th>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div class="footer">Copyright 2015</div>
+</body>
+</html>
